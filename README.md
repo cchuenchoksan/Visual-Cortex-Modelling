@@ -4,7 +4,7 @@ This code is a simplified version of my Master's Thesis at the University of Cam
 
 As this repo is aimmed towards scientists to model the V1 as an RNN on GPU, some aspect of the reports were removed. This include the usage of the xNES algorithm and CNN architecture. If you would like to see the code or have any questions please contact me at https://www.linkedin.com/in/chulabutra-chuenchoksan/.
 
-To navigate the repository:
+## Navigate the repository:
 
 1. The feed-forward and RNN weights generation and network execution classes are in the `rat` folder.
 2. As most files will import from `rat`, files which are in folders will likely not work unless `rat` is installed into an env or `rat` is moved into the folder.
