@@ -13,7 +13,6 @@ else:
     print("GPU not available. Model will be created on CPU.")
 
 with open("./data/data_1000_neuron3/responses.pkl", 'rb') as f:
-# with open("/Users/paopao_ch/Documents/projects/v1_modelling/Mouse-V1-Pytorch/plots/ignore_plots_1710350762.007822/responses.pkl", 'rb') as f:
     responses: torch.Tensor = pickle.load(f)
     responses = responses.to(device)
     y_E, y_I = responses[:800], responses[800:]
